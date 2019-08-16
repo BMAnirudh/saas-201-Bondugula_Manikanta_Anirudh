@@ -1,0 +1,59 @@
+body{
+ /* background-color: cyan;*/
+  background-image: url("student-portal-background.jpg");
+  border-radius: 5px;
+}
+h1{
+	font-size: 2.9em;
+}
+.container{
+	text-align: center;
+  padding: 2em 10em;
+}
+.buttons{
+	margin: 18px 25%;
+	padding:0.5em 10px;
+	font-size: 1.9em;
+	width: 400px;
+	background-color: #4CAF50;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+.sbutton{
+  width: 10em;
+  color: black;
+  padding: 12px 2px;
+  margin: 50px 5px;
+  float: right;
+  font-size: 0.9em;
+  border: 2px solid #e7e7e7;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 2em 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 10em;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 50px 5px;
+  float: right;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
